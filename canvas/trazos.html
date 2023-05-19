@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <title>Canvas</title>
+  </head>
+<body>
+      <canvas id="canvas" width="400" height="400"></canvas>
+    <script>
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+       
+ ctx.strokeStyle = "SkyBlue";
+ ctx.lineWidth = 4; //ancho del trazo
+ ctx.beginPath(); // comienza a dibujar
+ ctx.moveTo(10, 10); // inicio trazo en 10, 10    
+ ctx.lineTo(60, 60);// avanza hacia 60, 60
+ ctx.moveTo(60, 10); // inicia segundo trazo
+ ctx.lineTo(10, 60); // hacia 10, 60
+ ctx.stroke(); // dibuje
+
+        
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+
+	
+    </script>
+</body>
+</html>
